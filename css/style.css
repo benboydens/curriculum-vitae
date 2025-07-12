@@ -27,6 +27,24 @@ nav {
 }
 
 
+@media screen and (min-width: 768px) {
+    .languages-section {
+        padding-left: 0 !important;
+    }
+    .hobbies-section {
+        padding-right: 0 !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .languages-section {
+        padding: 0 0 1.5rem 0 !important;
+    }
+    .hobbies-section {
+        padding: 0 !important;
+    }
+}
+
+
 .container-center {
     position: relative;
     display: flex;
@@ -41,8 +59,9 @@ nav {
 }
 
 .hero-card {
-    width: 70vw;
+    /* width: 70vw; */
     border: none !important;
+    border-radius: 15px !important;
 }
 
 #profile-hero .profile-img {
@@ -72,6 +91,6 @@ nav {
     color: #555;
 }
 
-#education, #experience, #skills {
+#education, #experience, #languages {
     margin-top: 2rem;
 }
