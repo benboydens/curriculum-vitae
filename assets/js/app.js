@@ -1,3 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+
+// Import CSS files
+import '../css/style.css';
+import '../css/slider.css';
+import '../css/skills.css';
+import '../css/timeline.css';
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.email-link').forEach(function(link) {
         link.addEventListener('click', function(event) {

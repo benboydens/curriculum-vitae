@@ -6,7 +6,6 @@ body {
 
 #backdrop {
     height: 60vh;
-    background: url('../assets/mountains.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
