@@ -5,6 +5,7 @@ yarn-error.log*
 # Production build
 /public/css
 /public/js
+/public/fonts
 /public/index.html
 
 # Environment files
