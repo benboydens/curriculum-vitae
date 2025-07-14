@@ -20,8 +20,9 @@
   "author": "Ben Boydens",
   "license": "MIT",
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.0",
-    "@popperjs/core": "^2.11.8"
+    "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
